@@ -20,8 +20,8 @@ class Modal extends Component {
     onClickNotImageCloseModal = event => {
         if (event.target.nodeName !== 'IMG') {
             this.props.onCloseModal()
-        }
-    }
+        };
+    };
 
     render() {
         return (
